@@ -36,7 +36,9 @@ public class MyWarehouse extends UnicastRemoteObject implements Warehouse {
     }
     @Override
     public double getPrice(String description) throws RemoteException {
+        int a = 2/0;
         Double price = prices.get(description);
+        System.out.println("return price for "+description);
         return price == null ? 0 : price;
     }
 }

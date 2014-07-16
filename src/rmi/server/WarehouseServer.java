@@ -19,6 +19,7 @@ public class WarehouseServer {
 
         MyWarehouse centralWarehouse = new MyWarehouse();
         Registry registry = LocateRegistry.createRegistry(65000);
+
         registry.bind(WarehouseConstant.WAREHOUSE_ID,centralWarehouse);
 
         System.out.println("binding server to register...");
