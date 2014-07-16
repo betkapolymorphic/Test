@@ -1,4 +1,4 @@
 Test
 1) RMI
 ============================
-My java test repository
+My java rmi.server.test repository

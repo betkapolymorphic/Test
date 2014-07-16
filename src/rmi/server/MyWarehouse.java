@@ -1,4 +1,6 @@
-package rmi;
+package rmi.server;
+
+import rmi.download.Warehouse;
 
 import java.rmi.RemoteException;
 import java.rmi.server.RMIClientSocketFactory;
@@ -29,7 +31,7 @@ public class MyWarehouse extends UnicastRemoteObject implements Warehouse {
     Map<String,Double> prices = new HashMap<String, Double>();
     void initPrices(){
         prices = new HashMap<String, Double>();
-        prices.put("Nike",39.2);
+        prices.put("Oracle",39.2);
         prices.put("Adidas",73.2);
     }
     @Override

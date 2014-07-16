@@ -1,4 +1,4 @@
-package rmi;
+package rmi.download;
 
 import java.rmi.*;
 

@@ -1,4 +1,7 @@
-package rmi;
+package rmi.server;
+
+import rmi.download.Warehouse;
+import rmi.download.WarehouseConstant;
 
 import javax.naming.NamingException;
 import java.net.MalformedURLException;
@@ -17,7 +20,7 @@ public class WarehouseServer {
         MyWarehouse centralWarehouse = new MyWarehouse();
         Registry registry = LocateRegistry.createRegistry(65000);
         registry.bind(WarehouseConstant.WAREHOUSE_ID,centralWarehouse);
-        centralWarehouse.prices.put("Oracle",-1.1);
+
         System.out.println("binding server to register...");
 
 
