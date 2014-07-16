@@ -1,5 +1,5 @@
-import javax.naming.Context;
-import javax.naming.InitialContext;
+package rmi;
+
 import javax.naming.NamingException;
 import java.net.MalformedURLException;
 import java.rmi.AlreadyBoundException;

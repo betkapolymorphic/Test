@@ -1,3 +1,5 @@
+package rmi;
+
 /**
  * Created by student on 7/16/2014.
  */

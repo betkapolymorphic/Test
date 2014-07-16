@@ -1,3 +1,5 @@
+package rmi;
+
 import javax.naming.*;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
@@ -27,7 +29,7 @@ public class WarehouseClient {
 
         System.out.println("connet to server");
         String url = "rmi://localhost:65000/central_warehouse";
-        Warehouse centWarehouse = (Warehouse) context.lookup(url);
+        rmi.Warehouse centWarehouse = (rmi.Warehouse) context.lookup(url);
         String descr = "Nike";
         double price = centWarehouse.getPrice(descr);
         System.out.println(descr+" "+price);*/
