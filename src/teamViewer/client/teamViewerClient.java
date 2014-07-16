@@ -2,7 +2,7 @@ package teamViewer.client;
 
 
 
-import teamViewer.ScreenShoterable;
+import teamViewer.download.ScreenShoterable;
 import teamViewer.download.teamViewerConstant;
 
 import javax.imageio.ImageIO;
@@ -35,8 +35,8 @@ public class teamViewerClient {
             System.out.println("Pres button + enter");
             sc.next();
             try{
-                BufferedImage bufferedImage = shoterable.get();
-                ImageIO.write(bufferedImage, "png", new File("/screenshot.png"));
+                BufferedImage bufferedImage = shoterable.get().getImage();
+                ImageIO.write(bufferedImage, "png", new File("screenshot.png"));
                 System.out.println("Saved!");
             } catch (AWTException e) {
                 e.printStackTrace();

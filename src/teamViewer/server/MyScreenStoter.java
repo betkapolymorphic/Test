@@ -1,6 +1,7 @@
 package teamViewer.server;
 
-import teamViewer.ScreenShoterable;
+import teamViewer.download.ScreenShoterable;
+import teamViewer.download.SerializedBufferedImage;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -12,13 +13,15 @@ import java.rmi.server.UnicastRemoteObject;
  */
 public class MyScreenStoter extends UnicastRemoteObject implements ScreenShoterable {
     Robot robot = null;
-    protected MyScreenStoter() throws RemoteException, AWTException {
+    public MyScreenStoter() throws RemoteException, AWTException {
         robot = new Robot();
     }
 
     @Override
-    public BufferedImage get() throws RemoteException, AWTException {
+    public teamViewer.download.SerializedBufferedImage get() throws RemoteException, AWTException {
+        System.out.println("creating shot");
         BufferedImage image = robot.createScreenCapture(new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
-        return image;
+
+        return new SerializedBufferedImage(image);
     }
 }

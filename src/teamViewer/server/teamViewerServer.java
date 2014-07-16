@@ -1,7 +1,7 @@
 package teamViewer.server;
 
 
-import teamViewer.ScreenShoterable;
+import teamViewer.download.ScreenShoterable;
 import teamViewer.download.teamViewerConstant;
 
 import java.awt.*;
@@ -18,7 +18,7 @@ public class teamViewerServer {
         System.out.println("running server...");
         try {
             ScreenShoterable shoter = new MyScreenStoter();
-            Registry registry = LocateRegistry.createRegistry(65000);
+            Registry registry = LocateRegistry.createRegistry(teamViewerConstant.PORT);
 
             registry.bind(teamViewerConstant.ID,shoter);
             System.out.println("Server runned!");
