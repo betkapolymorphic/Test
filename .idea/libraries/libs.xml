@@ -1,7 +1,8 @@
 <component name="libraryTable">
   <library name="libs">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/com.horstmann.violet-0.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/com.horstmann.violet-0.21.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/neo4j-kernel-2.1.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

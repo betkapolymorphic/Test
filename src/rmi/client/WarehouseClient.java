@@ -13,6 +13,7 @@ import java.rmi.registry.Registry;
  * Created by student on 7/16/2014.
  */
 public class WarehouseClient {
+
     public static void main(String[] args) throws NamingException, RemoteException, NotBoundException {
         Context context = new InitialContext();
 
