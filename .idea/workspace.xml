@@ -1,10 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d26d5be9-f817-4676-adc7-cc0f7e101140" name="Default" comment="many to many&#10;@JoinColumn(name=&quot;userId&quot;,referencedColumnName = &quot;id&quot;)&#10;    private User user;&#10;  @JoinColumn(name=&quot;dogId&quot;,referencedColumnName = &quot;id&quot;)&#10;    private Dog dog;&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mhibernate/table/Dog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mhibernate/table/UserDogs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/user_dogs.hbm.xml" />
+    <list default="true" id="d26d5be9-f817-4676-adc7-cc0f7e101140" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Clicker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Combination.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/CutRod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/ExpectedValuePermition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/GenerateAndSave.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/GenerateHard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/GoodPermutAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JoshuaBloh/HashCode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/Inversion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_5_2_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_3_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_platform_3_4_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_20.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_8_1_14_v20131031.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_8_1_14_v20131031.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_8_1_14_v20131031.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_websocket_8_1_14_v20131031.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20080701.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_42_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webbitserver_webbit_0_4_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/MaxSubArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/PermutationAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/StolenValues.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Algorithm/TEST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Test_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Test_war_exploded2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/myspring/mvc/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/pages/hello.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/katya.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/mvc-dispatcher-servlet.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/spring-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/selenium/test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zip.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mhibernate/table/Dog.java" afterPath="$PROJECT_DIR$/src/main/java/mhibernate/table/Dog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test.iml" afterPath="$PROJECT_DIR$/Test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Test.iws" />
@@ -60,8 +118,53 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/mhibernate/Main.java" line="27" class="mhibernate.Main" package="mhibernate">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/Algorithm/Clicker.java" line="27" class="Algorithm.Clicker" package="Algorithm">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/Algorithm/GoodPermutAction.java" line="191" class="Algorithm.GoodPermutAction" package="Algorithm">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/Algorithm/GoodPermutAction.java" line="126" class="Algorithm.GoodPermutAction" package="Algorithm">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/Algorithm/CutRod.java" line="18" class="Algorithm.CutRod" package="Algorithm">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -86,58 +189,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user_dogs.hbm.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/user_dogs.hbm.xml">
+      <file leaf-file-name="GenerateHard.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/GenerateHard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="51" selection-start="361" selection-end="553" vertical-scroll-proportion="0.44225353" vertical-offset="129" max-vertical-offset="484">
+            <state line="275" column="0" selection-start="9373" selection-end="9373" vertical-scroll-proportion="0.0" vertical-offset="6050" max-vertical-offset="7392">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDogs.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mhibernate/table/UserDogs.java">
+      <file leaf-file-name="MaxSubArray.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/MaxSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="20" selection-start="418" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="402" max-vertical-offset="1232">
-              <folding>
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-              </folding>
+            <state line="76" column="55" selection-start="2327" selection-end="2327" vertical-scroll-proportion="0.0" vertical-offset="1308" max-vertical-offset="1870">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mhibernate/table/User.java">
+      <file leaf-file-name="CutRod.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/CutRod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="18" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="503" max-vertical-offset="1298">
-              <folding>
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-              </folding>
+            <state line="25" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="398" max-vertical-offset="748">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dog.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mhibernate/table/Dog.java">
+      <file leaf-file-name="StolenValues.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/StolenValues.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="18" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="573" max-vertical-offset="1298">
-              <folding>
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-              </folding>
+            <state line="56" column="53" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.3802817" vertical-offset="1124" max-vertical-offset="1738">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mhibernate/Main.java">
+      <file leaf-file-name="Thread.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="302" max-vertical-offset="814">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="140" column="6" selection-start="4496" selection-end="4496" vertical-scroll-proportion="0.0" vertical-offset="2176" max-vertical-offset="44330">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintWriter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/io/PrintWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="13" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0" vertical-offset="1210" max-vertical-offset="23584">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenerateAndSave.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/GenerateAndSave.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="224" column="51" selection-start="7538" selection-end="7538" vertical-scroll-proportion="0.0" vertical-offset="4928" max-vertical-offset="5588">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Combination.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Combination.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="24" selection-start="2096" selection-end="2096" vertical-scroll-proportion="0.0" vertical-offset="1430" max-vertical-offset="2596">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="System.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/lang/System.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="19" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0" vertical-offset="1210" max-vertical-offset="26840">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,10 +283,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/neo4j/build.gradle" />
-        <option value="$PROJECT_DIR$/src/rmi/client/WarehouseClient.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/myspring/IA.java" />
         <option value="$PROJECT_DIR$/src/myspring/A.java" />
         <option value="$PROJECT_DIR$/src/myspring/spring-config.xml" />
@@ -176,16 +300,40 @@
         <option value="$PROJECT_DIR$/src/main/java/myspring/IoC/DynamicObjectInit/mhibernate/util/HibernateUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/myspring/IoC/DynamicObjectInit/mhibernate/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/myspring/IoC/DynamicObjectInit/mhibernate/Main.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/user.hbm.xml" />
         <option value="dbtable:/6ab3a254/f7cf50ef-b8f8-433b-8448-e38b54770e3b/test..user" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/resources/user_dogs.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/mhibernate/table/UserDogs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/mhibernate/table/Dog.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/user_dogs.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/java/mhibernate/table/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mhibernate/table/Dog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JoshuaBloh/HashCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/myspring/mvc/UserController.java" />
+        <option value="$PROJECT_DIR$/src/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/springmvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/mhibernate/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/MaxSubArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/Inversion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/ExpectedValuePermition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/s.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/ThMulti.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/Clicker.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/zip.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/selenium/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/katya.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/Permutation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/PermutationAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/GoodPermutAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/Combination.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/GenerateAndSave.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/TEST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/GenerateHard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/CutRod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Algorithm/StolenValues.java" />
       </list>
     </option>
   </component>
@@ -224,6 +372,7 @@
       </PATH>
     </treeState>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -277,6 +426,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -308,10 +459,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -328,10 +475,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,44 +522,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mhibernate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mhibernate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="table" />
+              <option name="myItemId" value="Algorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -428,41 +539,45 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/neo4j-kernel-2.1.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Beta\Documents\GitHub\Test\src\main" />
+      <recent name="C:\Users\Beta\Documents\GitHub\Test\src\webapp" />
       <recent name="C:\Users\student\Documents\GitHub\Test\libs" />
       <recent name="C:\Users\student\Desktop\lab7 (2)\Test\src" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Beta\Documents\GitHub\Test\web" />
       <recent name="C:\Users\Beta\Documents\GitHub\Test\src\main\resources" />
       <recent name="C:\Users\Beta\Documents\GitHub\Test\src\main\java" />
       <recent name="C:\Users\Beta\Documents\GitHub\Test\src\main\java\myspring\IoC\DynamicObjectInit\mhibernate" />
       <recent name="C:\Users\Beta\Documents\GitHub\Test\src\main\java\myspring\IoC\DynamicObjectInit" />
-      <recent name="C:\Users\Beta\Documents\GitHub\Test\src\myspring\IoC\DynamicObjectInit" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.StolenValues">
+    <configuration default="false" name="GenerateAndSave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="myspring.*" />
+          <option name="PATTERN" value="Algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="myspring.Main" />
+      <option name="MAIN_CLASS_NAME" value="Algorithm.GenerateAndSave" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -471,25 +586,59 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled" />
+      <module name="Test" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="GenerateHard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="myspring.IoC.DynamicObjectInit.Singleton.*" />
+          <option name="PATTERN" value="Algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="myspring.IoC.DynamicObjectInit.Singleton.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="Algorithm.GenerateHard" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Test" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TEST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Algorithm.TEST" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -499,14 +648,42 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CutRod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="mhibernate.*" />
+          <option name="PATTERN" value="Algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="mhibernate.Main" />
+      <option name="MAIN_CLASS_NAME" value="Algorithm.CutRod" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Test" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StolenValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Algorithm.StolenValues" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -582,6 +759,9 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
@@ -624,6 +804,9 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -700,6 +883,10 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
       <method />
     </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
@@ -788,19 +975,21 @@
         <option name="Make" enabled="false" />
       </method>
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Groovy.build" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GenerateAndSave" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GenerateHard" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TEST" />
+      <item index="4" class="java.lang.String" itemvalue="Application.CutRod" />
+      <item index="5" class="java.lang.String" itemvalue="Application.StolenValues" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="3" class="java.lang.String" itemvalue="Groovy.build" />
-        <item index="4" class="java.lang.String" itemvalue="Groovy.build" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StolenValues" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CutRod" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GenerateHard" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TEST" />
+        <item index="4" class="java.lang.String" itemvalue="Application.GenerateAndSave" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -836,17 +1025,45 @@
       <workItem from="1405590935418" duration="609000" />
       <workItem from="1406721921918" duration="3513000" />
       <workItem from="1406924767616" duration="3266000" />
-      <workItem from="1406962796888" duration="8564000" />
+      <workItem from="1406962796888" duration="10440000" />
+      <workItem from="1407316581867" duration="602000" />
+      <workItem from="1407352765515" duration="620000" />
+      <workItem from="1407355379017" duration="46000" />
+      <workItem from="1407403735822" duration="5376000" />
+      <workItem from="1407415962373" duration="5939000" />
+      <workItem from="1407964839945" duration="3012000" />
+      <workItem from="1408434529182" duration="289000" />
+      <workItem from="1409042642146" duration="2160000" />
+      <workItem from="1409404987880" duration="924000" />
+      <workItem from="1409479384367" duration="84000" />
+      <workItem from="1409479487255" duration="3007000" />
+      <workItem from="1409668221742" duration="2930000" />
+      <workItem from="1409724141678" duration="4671000" />
+      <workItem from="1409846487834" duration="14000" />
+      <workItem from="1410694218578" duration="889000" />
+      <workItem from="1412183905636" duration="619000" />
+      <workItem from="1412236366303" duration="41000" />
+      <workItem from="1413006372893" duration="1103000" />
+      <workItem from="1413359966701" duration="22914000" />
+      <workItem from="1413452856749" duration="21843000" />
+      <workItem from="1413711536185" duration="13148000" />
+      <workItem from="1413794313210" duration="33000" />
+      <workItem from="1414415168637" duration="598000" />
+      <workItem from="1416141540669" duration="6244000" />
     </task>
     <task id="LOCAL-00001" summary="Hibernate&#10;Spring IOC&#10;Maven">
       <created>1406966197847</created>
       <updated>1406966197847</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="many to many&#10;@JoinColumn(name=&quot;userId&quot;,referencedColumnName = &quot;id&quot;)&#10;    private User user;&#10;  @JoinColumn(name=&quot;dogId&quot;,referencedColumnName = &quot;id&quot;)&#10;    private Dog dog;&#10;&lt;many-to-one name=&quot;user&quot; column=&quot;userId&quot;&#10;                     class=&quot;mhibernate.table.User&quot;/&gt;&#10;        &lt;many-to-one name=&quot;dog&quot; column=&quot;dogId&quot;&#10;                     class=&quot;mhibernate.table.Dog&quot;/&gt;">
+      <created>1406973412357</created>
+      <updated>1406973412357</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15991000" />
+    <option name="totallyTimeSpent" value="114973000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -869,38 +1086,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20392749" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24848942" sideWeight="0.50453174" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20392749" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3339161" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.079305135" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24924472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24848942" sideWeight="0.4954683" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43707484" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32482994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24848942" sideWeight="0.50482315" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.079305135" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -917,7 +1136,9 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Hibernate&#10;Spring IOC&#10;Maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hibernate&#10;Spring IOC&#10;Maven" />
+    <MESSAGE value="many to many&#10;@JoinColumn(name=&quot;userId&quot;,referencedColumnName = &quot;id&quot;)&#10;    private User user;&#10;  @JoinColumn(name=&quot;dogId&quot;,referencedColumnName = &quot;id&quot;)&#10;    private Dog dog;&#10;&lt;many-to-one name=&quot;user&quot; column=&quot;userId&quot;&#10;                     class=&quot;mhibernate.table.User&quot;/&gt;&#10;        &lt;many-to-one name=&quot;dog&quot; column=&quot;dogId&quot;&#10;                     class=&quot;mhibernate.table.Dog&quot;/&gt;" />
+    <MESSAGE value="update  dynamic alg" />
+    <option name="LAST_COMMIT_MESSAGE" value="update  dynamic alg" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -927,165 +1148,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/myspring/IoC/DynamicObjectInit/Simple/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="305" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="506">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/myspring/IoC/DynamicObjectInit/Singleton/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="506">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="352">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="770">
-          <folding>
-            <element signature="e#547#715#0" expanded="false" />
-            <element signature="tag#dependency#0;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#929#1086#0" expanded="false" />
-            <element signature="tag#dependency#1;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#1306#1469#0" expanded="false" />
-            <element signature="tag#dependency#2;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#1684#1877#0" expanded="false" />
-            <element signature="tag#dependency#3;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#2090#2328#0" expanded="false" />
-            <element signature="tag#dependency#4;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#2545#2729#0" expanded="false" />
-            <element signature="tag#dependency#5;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#2954#3231#0" expanded="false" />
-            <element signature="tag#dependency#6;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#3443#3655#0" expanded="false" />
-            <element signature="tag#dependency#7;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#3869#4099#0" expanded="false" />
-            <element signature="tag#dependency#8;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#4312#4571#0" expanded="false" />
-            <element signature="tag#dependency#9;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#4784#5112#0" expanded="false" />
-            <element signature="tag#dependency#10;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#5325#5588#0" expanded="false" />
-            <element signature="tag#dependency#11;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#5804#6045#0" expanded="false" />
-            <element signature="tag#dependency#12;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#6269#6499#0" expanded="false" />
-            <element signature="tag#dependency#14;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="tag#dependency#15;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="tag#dependency#16;tag#dependencies#0;tag#project#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/myspring/IoC/DynamicObjectInit/Simple/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="49" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/myspring/IoC/DynamicObjectInit/Simple/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="305" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="506">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/myspring/IoC/DynamicObjectInit/Singleton/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="352">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="506">
-          <folding>
-            <element signature="e#547#715#0" expanded="false" />
-            <element signature="tag#dependency#0;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#929#1086#0" expanded="false" />
-            <element signature="tag#dependency#1;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#1306#1469#0" expanded="false" />
-            <element signature="tag#dependency#2;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#1684#1877#0" expanded="false" />
-            <element signature="tag#dependency#3;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#2090#2328#0" expanded="false" />
-            <element signature="tag#dependency#4;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#2545#2729#0" expanded="false" />
-            <element signature="tag#dependency#5;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#2954#3231#0" expanded="false" />
-            <element signature="tag#dependency#6;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#3443#3655#0" expanded="false" />
-            <element signature="tag#dependency#7;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#3869#4099#0" expanded="false" />
-            <element signature="tag#dependency#8;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#4312#4571#0" expanded="false" />
-            <element signature="tag#dependency#9;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#4784#5112#0" expanded="false" />
-            <element signature="tag#dependency#10;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#5325#5588#0" expanded="false" />
-            <element signature="tag#dependency#11;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#5804#6045#0" expanded="false" />
-            <element signature="tag#dependency#12;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#6269#6499#0" expanded="false" />
-            <element signature="tag#dependency#14;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="tag#dependency#15;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="tag#dependency#16;tag#dependencies#0;tag#project#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/myspring/IoC/DynamicObjectInit/Singleton/Single.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="62" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="528">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/myspring/IoC/DynamicObjectInit/Simple/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="49" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rmi/client/WarehouseClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/rmi/client/WarehouseClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -1103,9 +1165,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/myspring/IoC/DynamicObjectInit/Simple/IA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="104" selection-end="104" vertical-scroll-proportion="0.23404256" vertical-offset="0" max-vertical-offset="564">
-          <folding />
-        </state>
+        <state line="6" column="24" selection-start="104" selection-end="104" vertical-scroll-proportion="0.23404256" vertical-offset="0" max-vertical-offset="564" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/rmi/download/nanohttpd1.java">
@@ -1130,44 +1190,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/myspring/IoC/DynamicObjectInit/Singleton/Single.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="62" selection-start="380" selection-end="380" vertical-scroll-proportion="0.5480427" vertical-offset="0" max-vertical-offset="562">
-          <folding />
-        </state>
+        <state line="14" column="62" selection-start="380" selection-end="380" vertical-scroll-proportion="0.5480427" vertical-offset="0" max-vertical-offset="562" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/myspring/IoC/DynamicObjectInit/Simple/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="49" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="462">
-          <folding />
-        </state>
+        <state line="8" column="49" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="462" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/myspring/IoC/DynamicObjectInit/Simple/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="305" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="506">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="352">
-          <folding />
-        </state>
+        <state line="13" column="0" selection-start="305" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="506" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/myspring/IoC/DynamicObjectInit/Singleton/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="42" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
-          <folding />
-        </state>
+        <state line="12" column="42" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="47" selection-end="47" vertical-scroll-proportion="0.25655976" vertical-offset="0" max-vertical-offset="343">
-          <folding />
-        </state>
+        <state line="4" column="8" selection-start="47" selection-end="47" vertical-scroll-proportion="0.25655976" vertical-offset="0" max-vertical-offset="343" />
       </provider>
     </entry>
     <entry file="uml://JAVA/javax.persistence.Column">
@@ -1193,105 +1236,246 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/Entity.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="1" selection-start="396" selection-end="396" vertical-scroll-proportion="0.6666667" vertical-offset="0" max-vertical-offset="352">
-          <folding />
-        </state>
+        <state line="11" column="1" selection-start="396" selection-end="396" vertical-scroll-proportion="0.6666667" vertical-offset="0" max-vertical-offset="352" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mhibernate/util/HibernateUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mhibernate/table/UserDogs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="193" max-vertical-offset="572">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="0" selection-start="7476" selection-end="7476" vertical-scroll-proportion="1.0628742" vertical-offset="855" max-vertical-offset="1408">
-          <folding>
-            <element signature="e#547#715#0" expanded="false" />
-            <element signature="tag#dependency#0;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#929#1086#0" expanded="false" />
-            <element signature="tag#dependency#1;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#1306#1469#0" expanded="false" />
-            <element signature="tag#dependency#2;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#1684#1877#0" expanded="false" />
-            <element signature="tag#dependency#3;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#2090#2328#0" expanded="false" />
-            <element signature="tag#dependency#4;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#2545#2729#0" expanded="false" />
-            <element signature="tag#dependency#5;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#2954#3231#0" expanded="false" />
-            <element signature="tag#dependency#6;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#3443#3655#0" expanded="false" />
-            <element signature="tag#dependency#7;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#3869#4099#0" expanded="false" />
-            <element signature="tag#dependency#8;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#4312#4571#0" expanded="false" />
-            <element signature="tag#dependency#9;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#4784#5112#0" expanded="false" />
-            <element signature="tag#dependency#10;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#5325#5588#0" expanded="false" />
-            <element signature="tag#dependency#11;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#5804#6045#0" expanded="false" />
-            <element signature="tag#dependency#12;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="e#6269#6499#0" expanded="false" />
-            <element signature="tag#dependency#14;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="tag#dependency#15;tag#dependencies#0;tag#project#0" expanded="false" />
-            <element signature="tag#dependency#16;tag#dependencies#0;tag#project#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="44" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="638">
-          <folding />
-        </state>
+        <state line="29" column="20" selection-start="418" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="402" max-vertical-offset="1232" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mhibernate/table/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="18" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="573" max-vertical-offset="1298">
-          <folding>
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="35" column="37" selection-start="599" selection-end="599" vertical-scroll-proportion="0.47554347" vertical-offset="507" max-vertical-offset="1804" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mhibernate/table/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="18" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0" vertical-offset="503" max-vertical-offset="1298">
-          <folding>
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-          </folding>
+        <state line="24" column="37" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="503" max-vertical-offset="1804" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JoshuaBloh/HashCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="3" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/hello.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="22" selection-start="594" selection-end="594" vertical-scroll-proportion="0.64116573" vertical-offset="0" max-vertical-offset="549" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="54" selection-start="505" selection-end="505" vertical-scroll-proportion="-6.16" vertical-offset="0" max-vertical-offset="440" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mhibernate/util/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="44" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="638">
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="14" selection-start="375" selection-end="375" vertical-scroll-proportion="-4.4" vertical-offset="0" max-vertical-offset="352">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/user_dogs.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="20" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="549">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/myspring/mvc/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="5" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mhibernate/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="302" max-vertical-offset="814">
+        <state line="22" column="53" selection-start="548" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Inversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="22" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1606" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/javax/swing/JTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="228" column="7" selection-start="9466" selection-end="9466" vertical-scroll-proportion="0.0" vertical-offset="3425" max-vertical-offset="208076" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Clicker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="269" selection-end="269" vertical-scroll-proportion="0.24765478" vertical-offset="132" max-vertical-offset="1012">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mhibernate/table/UserDogs.java">
+    <entry file="file://$PROJECT_DIR$/mvn.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="20" selection-start="418" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="402" max-vertical-offset="1232">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="26510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zip.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="318" selection-end="318" vertical-scroll-proportion="0.76512456" vertical-offset="736" max-vertical-offset="1298" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/selenium/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="19" selection-start="529" selection-end="529" vertical-scroll-proportion="0.2641166" vertical-offset="273" max-vertical-offset="858" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3806">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="409" column="13" selection-start="14971" selection-end="14971" vertical-scroll-proportion="0.0" vertical-offset="8390" max-vertical-offset="25410">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/PermutationAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="0" selection-start="3150" selection-end="3150" vertical-scroll-proportion="3.8185053" vertical-offset="76" max-vertical-offset="2552">
           <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2803#2823#0" expanded="false" />
+            <element signature="e#2873#2882#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/user_dogs.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/ExpectedValuePermition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="51" selection-start="361" selection-end="553" vertical-scroll-proportion="0.44225353" vertical-offset="129" max-vertical-offset="484">
+        <state line="20" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/GoodPermutAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="5" selection-start="175" selection-end="507" vertical-scroll-proportion="0.50889677" vertical-offset="110" max-vertical-offset="3696">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#shuffleIndex#1;class#GoodPermutAction#0" expanded="false" />
+            <element signature="method#containInColumn#0;class#GoodPermutAction#0" expanded="false" />
+            <element signature="method#correct#0;class#GoodPermutAction#0" expanded="false" />
+            <element signature="e#4186#4195#0" expanded="true" />
+            <element signature="e#4253#4262#0" expanded="true" />
+            <element signature="e#6309#6318#0" expanded="true" />
+            <element signature="e#6380#6400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="19" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0" vertical-offset="302" max-vertical-offset="25938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/Combination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="24" selection-start="2096" selection-end="2096" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="2508">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/katya.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="35" selection-start="1273" selection-end="1273" vertical-scroll-proportion="1.2526691" vertical-offset="0" max-vertical-offset="1232">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/GenerateAndSave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="224" column="51" selection-start="7538" selection-end="7538" vertical-scroll-proportion="0.0" vertical-offset="4814" max-vertical-offset="5588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/TEST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="368" selection-end="368" vertical-scroll-proportion="0.50491804" vertical-offset="132" max-vertical-offset="1298">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#271#291#0" expanded="false" />
+            <element signature="e#342#351#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/io/PrintWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="13" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0" vertical-offset="497" max-vertical-offset="22968">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/GenerateHard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="275" column="0" selection-start="9373" selection-end="9373" vertical-scroll-proportion="0.0" vertical-offset="6050" max-vertical-offset="7392">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/MaxSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="55" selection-start="2327" selection-end="2327" vertical-scroll-proportion="0.0" vertical-offset="1308" max-vertical-offset="1870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/CutRod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="398" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_60/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="140" column="6" selection-start="4496" selection-end="4496" vertical-scroll-proportion="0.0" vertical-offset="2162" max-vertical-offset="44330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Algorithm/StolenValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="53" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.3802817" vertical-offset="1124" max-vertical-offset="1738">
           <folding />
         </state>
       </provider>
@@ -1302,10 +1486,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Test:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1313,7 +1499,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Hibernate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1348,7 +1534,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Test</last-edited>
+          <last-edited>Spring|Test</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
